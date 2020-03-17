@@ -21,8 +21,8 @@ class Book
 end
 =end
 class Shoe
-  attr_accessor :color, :material, :condition
-  attr_reader :brand, :size
+  attr_accessor :color, :size, :material, :condition
+  attr_reader :brand
 
   BRANDS = []
 
